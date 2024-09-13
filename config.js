@@ -102,20 +102,20 @@ let config = {
 			module: "clock",
 			position: "top_left"
 		},		
-		{
-			module: "calendar",
-			header: "US Holidays",
-			position: "top_left",
-			config: {
-				calendars: [
-					{
-						fetchInterval: 7 * 24 * 60 * 60 * 1000,
-						symbol: "calendar-check",
-						url: "https://ics.calendarlabs.com/76/mm3137/US_Holidays.ics"
-					}
-				]
-			}
-		},
+		// {
+		// 	module: "calendar",
+		// 	header: "US Holidays",
+		// 	position: "top_left",
+		// 	config: {
+		// 		calendars: [
+		// 			{
+		// 				fetchInterval: 7 * 24 * 60 * 60 * 1000,
+		// 				symbol: "calendar-check",
+		// 				url: "https://ics.calendarlabs.com/76/mm3137/US_Holidays.ics"
+		// 			}
+		// 		]
+		// 	}
+		// },
 		// {
 		// 	module: "compliments",
 		// 	position: "lower_third"
@@ -141,38 +141,38 @@ let config = {
 		// 		lon: -84.6824603
 		// 	}
 		// },
-		// {
-		// 	module: "newsfeed",
-		// 	position: "bottom_bar",
-		// 	config: {
-		// 		feeds: [
-		// 			{
-		// 				title: "WSJ",
-		// 				url: "https://feeds.a.dj.com/rss/RSSWorldNews.xml"
-		// 			},
-		// 			{
-		// 				title: "WSJ Technology",
-		// 				url: "https://feeds.a.dj.com/rss/RSSWSJD.xml"
-		// 			},
-		// 			{
-		// 				title: "WSJ Market News",
-		// 				url: "https://feeds.a.dj.com/rss/RSSMarketsMain.xml"
-		// 			},
-		// 			{
-		// 				title: "WSJ Lifestyle",
-		// 				url: "https://feeds.a.dj.com/rss/RSSLifestyle.xml"
-		// 			},
-		// 			{
-		// 				title: "Fox Headlines",
-		// 				url: "https://moxie.foxnews.com/google-publisher/latest.xml"
-		// 			}
-		// 		],
-		// 		showSourceTitle: true,
-		// 		showPublishDate: true,
-		// 		broadcastNewsFeeds: true,
-		// 		broadcastNewsUpdates: true
-		// 	}
-		// },
+		{
+			module: "newsfeed",
+			position: "bottom_bar",
+			config: {
+				feeds: [
+					{
+						title: "WSJ",
+						url: "https://feeds.a.dj.com/rss/RSSWorldNews.xml"
+					},
+					{
+						title: "WSJ Technology",
+						url: "https://feeds.a.dj.com/rss/RSSWSJD.xml"
+					},
+					{
+						title: "WSJ Market News",
+						url: "https://feeds.a.dj.com/rss/RSSMarketsMain.xml"
+					},
+					{
+						title: "WSJ Lifestyle",
+						url: "https://feeds.a.dj.com/rss/RSSLifestyle.xml"
+					},
+					{
+						title: "Fox Headlines",
+						url: "https://moxie.foxnews.com/google-publisher/latest.xml"
+					}
+				],
+				showSourceTitle: true,
+				showPublishDate: true,
+				broadcastNewsFeeds: true,
+				broadcastNewsUpdates: true
+			}
+		},
 	]
 };
 
