@@ -102,45 +102,45 @@ let config = {
 			module: "clock",
 			position: "top_left"
 		},		
-		// {
-		// 	module: "calendar",
-		// 	header: "US Holidays",
-		// 	position: "top_left",
-		// 	config: {
-		// 		calendars: [
-		// 			{
-		// 				fetchInterval: 7 * 24 * 60 * 60 * 1000,
-		// 				symbol: "calendar-check",
-		// 				url: "https://ics.calendarlabs.com/76/mm3137/US_Holidays.ics"
-		// 			}
-		// 		]
-		// 	}
-		// },
 		{
-			module: "compliments",
-			position: "lower_third"
+			module: "calendar",
+			header: "US Holidays",
+			position: "top_left",
+			config: {
+				calendars: [
+					{
+						fetchInterval: 7 * 24 * 60 * 60 * 1000,
+						symbol: "calendar-check",
+						url: "https://ics.calendarlabs.com/76/mm3137/US_Holidays.ics"
+					}
+				]
+			}
 		},
 		// {
-		// 	module: "weather",
-		// 	position: "top_right",
-		// 	config: {
-		// 		weatherProvider: "openmeteo",
-		// 		type: "current",
-		// 		lat: 34.022305,
-		// 		lon: -84.6824603
-		// 	}
+		// 	module: "compliments",
+		// 	position: "lower_third"
 		// },
-		// {
-		// 	module: "weather",
-		// 	position: "top_right",
-		// 	header: "Weather Forecast",
-		// 	config: {
-		// 		weatherProvider: "openmeteo",
-		// 		type: "forecast",
-		// 		lat: 34.022305,
-		// 		lon: -84.6824603
-		// 	}
-		// },
+		{
+			module: "weather",
+			position: "top_right",
+			config: {
+				weatherProvider: "openmeteo",
+				type: "current",
+				lat: 34.022305,
+				lon: -84.6824603
+			}
+		},
+		{
+			module: "weather",
+			position: "top_right",
+			header: "Weather Forecast",
+			config: {
+				weatherProvider: "openmeteo",
+				type: "forecast",
+				lat: 34.022305,
+				lon: -84.6824603
+			}
+		},
 		{
 			module: "newsfeed",
 			position: "bottom_bar",
