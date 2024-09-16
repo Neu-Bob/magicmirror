@@ -116,10 +116,10 @@ let config = {
 				]
 			}
 		},
-	 	{
-			module: "compliments",
-			position: "lower_third"
-		},
+	 	// {
+		// 	module: "compliments",
+		// 	position: "lower_third"
+		// },
 		{
 			module: "weather",
 			position: "top_right",
