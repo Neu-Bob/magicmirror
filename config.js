@@ -116,10 +116,10 @@ let config = {
 				]
 			}
 		},
-	 	// {
-		// 	module: "compliments",
-		// 	position: "lower_third"
-		// },
+	 	{
+			module: "compliments",
+			position: "lower_third"
+		},
 		{
 			module: "weather",
 			position: "top_right",
@@ -141,42 +141,42 @@ let config = {
 				lon: -84.6824603
 			}
 		},
-		// {
-		// 	module: "newsfeed",
-		// 	position: "bottom_bar",
-		// 	config: {
-		// 		feeds: [
-		// 			{
-		// 				title: "WSJ",
-		// 				url: "https://feeds.a.dj.com/rss/RSSWorldNews.xml"
-		// 			},
-		// 			{
-		// 				title: "WSJ Technology",
-		// 				url: "https://feeds.a.dj.com/rss/RSSWSJD.xml"
-		// 			},
-		// 			{
-		// 				title: "WSJ Market News",
-		// 				url: "https://feeds.a.dj.com/rss/RSSMarketsMain.xml"
-		// 			},
-		// 			{
-		// 				title: "WSJ Lifestyle",
-		// 				url: "https://feeds.a.dj.com/rss/RSSLifestyle.xml"
-		// 			},
-		// 			{
-		// 				title: "Fox Headlines",
-		// 				url: "https://moxie.foxnews.com/google-publisher/latest.xml"
-		// 			},
-		// 			{
-		// 				title: "CNBC Finance",
-		// 				url: "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664"
-		// 			}
-		// 		],
-		// 		showSourceTitle: true,
-		// 		showPublishDate: true,
-		// 		broadcastNewsFeeds: true,
-		// 		broadcastNewsUpdates: true
-		// 	}
-		// },
+		{
+			module: "newsfeed",
+			position: "bottom_bar",
+			config: {
+				feeds: [
+					{
+						title: "WSJ",
+						url: "https://feeds.a.dj.com/rss/RSSWorldNews.xml"
+					},
+					{
+						title: "WSJ Technology",
+						url: "https://feeds.a.dj.com/rss/RSSWSJD.xml"
+					},
+					{
+						title: "WSJ Market News",
+						url: "https://feeds.a.dj.com/rss/RSSMarketsMain.xml"
+					},
+					{
+						title: "WSJ Lifestyle",
+						url: "https://feeds.a.dj.com/rss/RSSLifestyle.xml"
+					},
+					{
+						title: "Fox Headlines",
+						url: "https://moxie.foxnews.com/google-publisher/latest.xml"
+					},
+					{
+						title: "CNBC Finance",
+						url: "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664"
+					}
+				],
+				showSourceTitle: true,
+				showPublishDate: true,
+				broadcastNewsFeeds: true,
+				broadcastNewsUpdates: true
+			}
+		},
 	]
 };
 
