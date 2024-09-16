@@ -116,10 +116,10 @@ let config = {
 				]
 			}
 		},
-	 {
-			module: "compliments",
-			position: "lower_third"
-		},
+	 	// {
+		// 	module: "compliments",
+		// 	position: "lower_third"
+		// },
 		{
 			module: "weather",
 			position: "top_right",
@@ -165,6 +165,10 @@ let config = {
 					{
 						title: "Fox Headlines",
 						url: "https://moxie.foxnews.com/google-publisher/latest.xml"
+					},
+					{
+						title: "CNBC Finance",
+						url: "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664"
 					}
 				],
 				showSourceTitle: true,
