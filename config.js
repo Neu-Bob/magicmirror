@@ -94,10 +94,10 @@ let config = {
 		// 		updatePeriod: 5,
 		// 	}
 		// },
-		// {
-		// 	module: "updatenotification",
-		// 	position: "top_bar"
-		// },
+		{
+			module: "updatenotification",
+			position: "top_bar"
+		},
 		// {
 		// 	module: "clock",
 		// 	position: "top_left"
