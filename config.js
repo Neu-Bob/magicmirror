@@ -98,10 +98,10 @@ let config = {
 			module: "updatenotification",
 			position: "top_bar"
 		},
-		// {
-		// 	module: "clock",
-		// 	position: "top_left"
-		// },
+		{
+			module: "clock",
+			position: "top_left"
+		},
 		// {
 		// 	module: "calendar",
 		// 	header: "US Holidays",
