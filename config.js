@@ -162,10 +162,10 @@ let config = {
 						title: "WSJ Lifestyle",
 						url: "https://feeds.a.dj.com/rss/RSSLifestyle.xml"
 					},
-					{
-						title: "Fox Headlines",
-						url: "https://moxie.foxnews.com/google-publisher/latest.xml"
-					},
+					// {
+					// 	title: "Fox Headlines",
+					// 	url: "https://moxie.foxnews.com/google-publisher/latest.xml"
+					// },
 					{
 						title: "CNBC Finance",
 						url: "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664"
