@@ -102,20 +102,20 @@ let config = {
 		// 	module: "clock",
 		// 	position: "top_left"
 		// },
-		{
-			module: "calendar",
-			header: "US Holidays",
-			position: "top_left",
-			config: {
-				calendars: [
-					{
-						fetchInterval: 7 * 24 * 60 * 60 * 1000,
-						symbol: "calendar-check",
-						url: "https://ics.calendarlabs.com/76/mm3137/US_Holidays.ics"
-					}
-				]
-			}
-		},
+		// {
+		// 	module: "calendar",
+		// 	header: "US Holidays",
+		// 	position: "top_left",
+		// 	config: {
+		// 		calendars: [
+		// 			{
+		// 				fetchInterval: 7 * 24 * 60 * 60 * 1000,
+		// 				symbol: "calendar-check",
+		// 				url: "https://ics.calendarlabs.com/76/mm3137/US_Holidays.ics"
+		// 			}
+		// 		]
+		// 	}
+		// },
 	 	{
 			module: "compliments",
 			position: "lower_third"
