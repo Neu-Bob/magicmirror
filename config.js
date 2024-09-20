@@ -116,20 +116,20 @@ let config = {
 		// 		]
 		// 	}
 		// },
-	 	{
-			module: "compliments",
-			position: "lower_third"
-		},
-		// {
-		// 	module: "weather",
-		// 	position: "top_right",
-		// 	config: {
-		// 		weatherProvider: "openmeteo",
-		// 		type: "current",
-		// 		lat: 34.022305,
-		// 		lon: -84.6824603
-		// 	}
+	 	// {
+		// 	module: "compliments",
+		// 	position: "lower_third"
 		// },
+		{
+			module: "weather",
+			position: "top_right",
+			config: {
+				weatherProvider: "openmeteo",
+				type: "current",
+				lat: 34.022305,
+				lon: -84.6824603
+			}
+		},
 		// {
 		// 	module: "weather",
 		// 	position: "top_right",
